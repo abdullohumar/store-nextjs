@@ -3,7 +3,10 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-2xl">Home</h1>
+      <section className="blue_container">
+        <h1 className="heading">Find the best what you need <br/> And safe your time more</h1>
+        <p className="sub-heading !max-heading-3xl">Everything amazing, incredible and fit in your wallet</p>
+      </section>
     </>
   );
 }
