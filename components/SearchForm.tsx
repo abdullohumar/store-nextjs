@@ -10,7 +10,7 @@ return (
       name='query'
       defaultValue={url}
       className='search-input'
-      placeholder='search what you need...'
+      placeholder='Search what you need...'
       />
       <div className='flex gap-2'>
         {url && <SearchFormReset/>}
